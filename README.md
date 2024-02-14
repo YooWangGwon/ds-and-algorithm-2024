@@ -14,9 +14,16 @@
 ## 3일차
 - 파이썬 자료구조
     - 단순 연결 리스트 복습
-    - 원형 연결 리스트
-    - 스택(stack)
-    - 큐(queue)
+    - 원형 연결 리스트(패스) : 마지막 노드가 제일 첫 노드와 연결
+    - 스택(stack):Last In First Out(LIFO), First In Last Out(FILO)
+        - pop - list.pop()
+        - push - list.append()
+    - 큐(queue) : First In First Out(FIFO)
+        - enQueue : 큐에 데이터를 삽입
+        - deQueue : 큐에 데이터를 추출
+        - front(머리) : 데이터 중 첫 번째 데이터
+        - rear(꼬리) : 데이터 중 마지막 데이터
+        - front와 rear가 같이 있다면 데이터가 없는 것
     - 트리
     - 그래프
 
