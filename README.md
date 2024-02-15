@@ -18,17 +18,22 @@
     - 스택(stack):Last In First Out(LIFO), First In Last Out(FILO)
         - pop - list.pop()
         - push - list.append()
+
+    ![stack](https://cs.lmu.edu/~ray/images/stack.gif)
+
     - 큐(queue) : First In First Out(FIFO)
         - enQueue : 큐에 데이터를 삽입
         - deQueue : 큐에 데이터를 추출
         - front(머리) : 데이터 중 첫 번째 데이터
         - rear(꼬리) : 데이터 중 마지막 데이터
         - front와 rear가 같이 있다면 데이터가 없는 것
-    - 트리
-    - 그래프
+
+    ![queue](https://raw.githubusercontent.com/YooWangGwon/ds-and-algorithm-2024/main/images/queue.png)
+
 
 ## 4일차
 - 파이썬 자료구조
+    - 큐 일반구현 예정
 
 ## 5일차
 
