@@ -3,11 +3,19 @@
 # desc : 큐 일반구현
 
 # Queue 풀 함수
-def isQueueFull():
-    global SIZE, rear
-    if rear == (SIZE - 1):
-        return True                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-    else:
+def isQueueFull(): # 개선버전으로 변경
+    global SIZE, queue, front, rear
+    if rear != (SIZE-1): # 큐가 아직 빈상태
+        return False
+    elif rear == (SIZE-1) and front == -1: # 큐가 꽉 찬 상태
+        return True
+    else: # 큐가 앞쪽이 비어있는 상태, rear가 끝까지 간 상태
+        while front != -1: # 완전히 앞으로 당긴다. front가 -1이 될 때 까지
+            for i in range(front+1, SIZE):
+                queue[i-1] = queue[i]
+                queue[i] = None
+            front -= 1
+            rear -= 1
         return False
     
 # Queue 엠티 확인함수
@@ -75,6 +83,6 @@ if __name__ == '__main__':
 
         elif select.lower() == 'x':
             break
-        
+
         else:
             continue
