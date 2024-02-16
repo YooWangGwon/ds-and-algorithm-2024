@@ -64,7 +64,7 @@
             - 깊이 우선 탐색(DFS:Depth First Search) : Stack 활용
             - 너비 우선 탐색(BFS:Breadth First Search) : Queue 활용
 
-    ![graph](https://raw.githubusercontent.com/YooWangGwon/ds-and-algorithm-2024/main/images/graph.png)
+    ![graph](https://raw.githubusercontent.com/YooWangGwon/ds-and-algorithm-2024/main/images/graph02.png)
 
     - 재귀호출
     - 정렬
