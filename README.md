@@ -66,11 +66,16 @@
 
     ![graph](https://raw.githubusercontent.com/YooWangGwon/ds-and-algorithm-2024/main/images/graph02.png)
 
-    - 재귀호출
+## 6일차(24.02.19)
+- 파이썬 자료구조/알고리즘
+    - 재귀호출 : 자신을 다시 호출하는 것
     - 정렬
-    - 검색
-
-## 6일차
-
-
+        - 선택정렬(Selection Sort) : 여러 데이터 중에서 최소값을 뽑는 작동을 반복하여 값을 정렬하는 방식 - O(n^2)
+        - 삽입정렬(Insertion Sort) : 기존값 기준 앞뒤로 보내는 정렬 - O(n^2)
+        - 버블정렬(Bubble Sort) : 기준값 기준으로 제일 큰값을 뒤로 보내는 정렬 - O(n^2)
+        - 퀵 정렬(Quick Sort) : 기준값 기준으로 작은값그룹/큰값그룹으로 분리한 뒤 다시 정렬 재귀호출 - O(nlogn)
+        
 ## 7일차
+- 파이썬 자료구조/알고리즘
+    - 검색
+- 코딩테스트
